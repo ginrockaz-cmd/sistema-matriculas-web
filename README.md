@@ -10,6 +10,14 @@ Sistema web desarrollado para automatizar el proceso de matrícula en una instit
 - Generación de estados de cuenta
 - Exportación de reportes en PDF
 
+## 🚀 Impacto del sistema
+
+Este sistema permite automatizar el proceso de matrícula, reduciendo tiempos de registro, evitando duplicidad de datos y mejorando la gestión administrativa.
+
+## 🔐 Seguridad
+
+El sistema implementa autenticación mediante login y control de sesiones para restringir el acceso a usuarios autorizados.
+
 ## 🛠 Tecnologías utilizadas
 - PHP
 - MySQL
@@ -85,6 +93,10 @@ El sistema utiliza una base de datos relacional en MySQL, con integridad referen
 ![Estado de Cuenta]
 
 <img width="1868" height="909" alt="image" src="https://github.com/user-attachments/assets/eff517fc-b88a-41e8-bcc3-ee5d21ab10c5" />
+
+## 🔄 Mejora futura
+
+Como mejora, se propone migrar el frontend a React para mejorar la experiencia de usuario y escalabilidad del sistema.
 
 ## 👨‍💻 Autor
 Jorge Luis Fernández Talaverano

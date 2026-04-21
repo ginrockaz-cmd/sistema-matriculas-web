@@ -32,7 +32,8 @@ El sistema está dividido en módulos:
 La base de datos está diseñada para gestionar la relación entre estudiantes, matrículas y pagos, asegurando integridad y control de la información.
 
 ## 📊 Diagrama Entidad-Relación
-(Aquí debes agregar la imagen del DER)
+<img width="1547" height="679" alt="image" src="https://github.com/user-attachments/assets/c302b000-4873-4584-874b-82a76297f8ea" />
+
 
 ## 👨‍💻 Autor
 Jorge Luis Fernández Talaverano

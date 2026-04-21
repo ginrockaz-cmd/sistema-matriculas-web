@@ -1,0 +1,140 @@
+
+/* Tema: I.E.P. Divina Misericordia (Colores propuestos) */
+/* Colores: azul profundo institucional, dorado claro, blanco, gris suave */
+:root{
+  --azul-escuro: #0B3B66;
+  --dorado: #E1B85A;
+  --blanco: #ffffff;
+  --gris-claro: #F4F6F8;
+  --texto: #213547;
+  --success: #2E856E;
+  --danger: #D64545;
+  --radio: 10px;
+  --max-width: 1100px;
+  --box-shadow: 0 6px 18px rgba(16,24,40,0.08);
+  --base-font: "Inter", "Arial", sans-serif;
+}
+
+*{box-sizing: border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:var(--base-font);
+  color:var(--texto);
+  background:linear-gradient(180deg,var(--gris-claro) 0%, #fff 100%);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* Contenedor principal centrado */
+.container{
+  max-width:var(--max-width);
+  margin:28px auto;
+  padding:24px;
+  background:var(--blanco);
+  border-radius:16px;
+  box-shadow:var(--box-shadow);
+}
+
+/* Header */
+.header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding-bottom:16px;
+  border-bottom:1px solid #e9eef3;
+}
+.logo {
+  width:72px;
+  height:72px;
+  border-radius:12px;
+  background:linear-gradient(135deg,var(--azul-escuro), #12355a);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--blanco);
+  font-weight:700;
+  font-size:20px;
+  box-shadow:0 4px 12px rgba(11,59,102,0.12);
+}
+.school-title{
+  font-size:20px;
+  font-weight:700;
+  color:var(--azul-escuro);
+}
+.school-sub{font-size:13px;color:#607489}
+
+/* Navegación simple */
+.nav{
+  display:flex;
+  gap:10px;
+  margin-top:14px;
+  flex-wrap:wrap;
+}
+.btn {
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 12px;
+  border-radius:8px;
+  text-decoration:none;
+  background:transparent;
+  border:1px solid transparent;
+  cursor:pointer;
+  font-weight:600;
+}
+.btn-primary{
+  background:var(--azul-escuro);
+  color:var(--blanco);
+  border-color:transparent;
+}
+.btn-ghost{background:transparent;border:1px solid #e6eef6;color:var(--azul-escuro)}
+
+/* Tarjetas info */
+.card{
+  background:linear-gradient(180deg, #ffffff, #fbfdff);
+  border-radius:12px;
+  padding:18px;
+  box-shadow:0 8px 20px rgba(33,53,71,0.04);
+}
+
+/* Tablas */
+.table {
+  width:100%;
+  border-collapse:collapse;
+  margin-top:12px;
+}
+.table th, .table td {
+  text-align:left;
+  padding:10px 12px;
+  border-bottom:1px solid #eef4f9;
+}
+.table th{
+  background:linear-gradient(180deg, rgba(11,59,102,0.03), transparent);
+  font-weight:700;
+  color:var(--azul-escuro);
+}
+
+/* Form styles */
+.form-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.form-group{flex:1;min-width:180px}
+label{display:block;font-size:13px;margin-bottom:6px;color:#425466}
+input[type="text"],input[type="email"],input[type="date"],select,textarea{
+  width:100%;
+  padding:10px 12px;
+  border-radius:8px;
+  border:1px solid #e6eef6;
+  background:#fff;
+  font-size:14px;
+}
+textarea{min-height:100px;resize:vertical}
+
+/* Botones de acción en tabla */
+.actions{display:flex;gap:8px}
+
+/* Responsive */
+@media (max-width:900px){
+  .container{padding:16px;margin:12px}
+  .header{flex-direction:column;align-items:flex-start;gap:8px}
+  .logo{width:60px;height:60px}
+}

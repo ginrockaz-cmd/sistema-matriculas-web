@@ -56,29 +56,35 @@ El sistema utiliza una base de datos relacional en MySQL, con integridad referen
 
 <img width="886" height="749" alt="Captura de pantalla 2025-10-31 025236" src="https://github.com/user-attachments/assets/877546d0-39f1-4cd0-a38d-e016789976da" />
 
+
 ![Dashboard]
 
 <img width="1522" height="665" alt="image" src="https://github.com/user-attachments/assets/f267a935-0bfd-47c7-bd48-b4ce7175534a" />
+
 
 ![Estudiantes]
 
 <img width="1581" height="897" alt="image" src="https://github.com/user-attachments/assets/2d24f672-98c7-46a1-af6d-718816395933" />
 
+
 ![Matriculas]
 
 <img width="1318" height="834" alt="image" src="https://github.com/user-attachments/assets/e083de14-dacf-4604-a959-fa6199ae3b35" />
+
 
 ![Pagos]
 
 <img width="548" height="719" alt="image" src="https://github.com/user-attachments/assets/4a728ace-98bf-4538-a0f9-be69785a6133" />
 
+
 ![Modificar Montos Mat/Pen]
 
 <img width="997" height="840" alt="image" src="https://github.com/user-attachments/assets/e7369ce7-4119-47a9-b3ad-10da5d152734" />
 
+
 ![Estado de Cuenta]
 
-<img width="604" height="287" alt="Captura de pantalla 2025-12-12 201343" src="https://github.com/user-attachments/assets/9728c539-7bae-45a4-a8a7-a1a4d3d05c5a" />
+<img width="1868" height="909" alt="image" src="https://github.com/user-attachments/assets/eff517fc-b88a-41e8-bcc3-ee5d21ab10c5" />
 
 ## 👨‍💻 Autor
 Jorge Luis Fernández Talaverano

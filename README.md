@@ -1,2 +1,38 @@
-# sistema-matriculas-web
-Sistema web para la gestión de matrículas, pagos y estudiantes desarrollado con PHP y MySQL.
+# Sistema de Gestión de Matrículas
+
+## 📌 Descripción
+Sistema web desarrollado para automatizar el proceso de matrícula en una institución educativa, optimizando el registro de estudiantes, control de pagos y generación de reportes.
+
+## 🚀 Funcionalidades
+- Registro y gestión de estudiantes
+- Gestión de matrículas
+- Control de pagos
+- Generación de estados de cuenta
+- Exportación de reportes en PDF
+
+## 🛠 Tecnologías utilizadas
+- PHP
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- FPDF (generación de PDF)
+
+## 🌐 Demo del sistema
+https://sistemamatriculas.rf.gd/dashboard.php
+
+## 🧩 Estructura del sistema
+El sistema está dividido en módulos:
+- Alumnos
+- Matrículas
+- Pagos
+- Reportes
+
+## 🗄 Base de datos
+La base de datos está diseñada para gestionar la relación entre estudiantes, matrículas y pagos, asegurando integridad y control de la información.
+
+## 📊 Diagrama Entidad-Relación
+(Aquí debes agregar la imagen del DER)
+
+## 👨‍💻 Autor
+Jorge Luis Fernández Talaverano
